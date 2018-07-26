@@ -1,0 +1,17 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "sample api for testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "author": "Muhammad",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}
